@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+
+# Misc
+.DS_Store
+desktop.ini
+
+# Config files for keys
+config.py
