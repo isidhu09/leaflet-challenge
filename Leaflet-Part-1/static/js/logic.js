@@ -87,7 +87,7 @@ legend.onAdd = function() {
     let labels = []
     div.innerHTML = legendInfo;
     for (let i = 0; i< limits.length; i++) {
-        labels.push("<p style='background-color:" + getColor(limits[i]) + "'>" + limits[i] + " to " + limits[i+1] + "</p>")
+        labels.push("<p style='background-color:" + depthColor(limits[i]) + "'>" + limits[i] + " to " + limits[i+1] + "</p>")
     };
     labels[5] = labels[5].replace(' to undefined', '+');
     div.innerHTML += labels.join("");
